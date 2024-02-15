@@ -3,3 +3,4 @@
 	nwg-look
 	.icons
 stworzenie dowiazania z usr/share/icons
+2. Dodanie do gita innego gitowego repo -> dodanie do gitgnore .git
