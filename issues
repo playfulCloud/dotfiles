@@ -1,6 +1,22 @@
+aplikacje:
+gtk-fontsel
+lx-appearence
+nwg-look
+fef
+ranger
+
+
+
+
+
+
 1. Zmiana kursora - ustawienie kursora w:
 	lx-appearence 
 	nwg-look
 	.icons
 stworzenie dowiazania z usr/share/icons
 2. Dodanie do gita innego gitowego repo -> dodanie do gitgnore .git
+
+
+
+
