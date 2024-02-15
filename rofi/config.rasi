@@ -5,7 +5,7 @@
     b-color: #000000FF;
     fg-color: #FFFFFFFF;
     fgp-color: #888888FF;
-    b-radius: 8px;
+    b-radius: 0px;
     g-padding: 8px;
     hl-color: #FFFFFFFF;
     hlt-color: #000000FF;

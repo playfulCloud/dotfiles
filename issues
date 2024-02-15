@@ -4,7 +4,7 @@ lx-appearence
 nwg-look
 fef
 ranger
-
+powerline
 
 
 
@@ -16,7 +16,6 @@ ranger
 	.icons
 stworzenie dowiazania z usr/share/icons
 2. Dodanie do gita innego gitowego repo -> dodanie do gitgnore .git
-
 
 
 
