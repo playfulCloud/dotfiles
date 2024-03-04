@@ -12,20 +12,16 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 
+vim.g.mapleader = " "
 
 
 
--- PLUGINS
-local plugins = {
-	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-	{'nvim-telescope/telescope.nvim', tag = '0.1.5',dependencies = { 'nvim-lua/plenary.nvim' }},
-	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}
-}
+
 
 
 local opts = {}
 
-require("lazy").setup(plugins, opts)
+require("lazy").setup("plugins")
 local builtin = require("telescope.builtin")
 require("catppuccin").setup()
 vim.cmd.colorscheme "catppuccin"
@@ -45,10 +41,14 @@ vim.o.number = true
 
 -- ##############
 -- KEYMAPS
-
 vim.keymap.set('n','<C-n>', builtin.find_files,{})
 vim.keymap.set('n','<C-f>', builtin.live_grep,{})
+_G.neo_tree_reveal_state = _G.neo_tree_reveal_state or false
 
+
+vim.keymap.set('n', '<leader>f', ':Neotree filesystem reveal left <CR>' , {})
+vim.keymap.set('n', '<leader>d', ':Neotree close <CR>' , {})
+   
 -- ##############
 
 
